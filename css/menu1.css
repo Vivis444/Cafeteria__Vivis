@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+}
+div{
+    text-align: center;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+    background-color: wheat;
+}
+th{
+    text-align: center;
+    color: brown;
+    border: 1px solid black;
+    position: relative;
+    background-color: black;
+}
+table{
+    border: 7px solid black;
+    width: auto;
+    position: relative;
+    margin-left: 150px;
+    margin: 0 auto;
+}
+img{
+    alt: "Mountain View";
+    width: 200px;
+    height: 80px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: white;
+    text-decoration: unset;
+}
+.btn-regresar{
+   position: fixed;
+    top: -20px;
+    right: -20px;
+    width: 90px;
+    height: 60px;
+    background: brown;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    filter: blur(1px);
+    transition: all 300ms;
+    cursor: pointer;
+}

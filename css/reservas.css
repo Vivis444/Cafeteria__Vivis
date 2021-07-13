@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+.main5{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background: url('../imagenes/45.jpg') ;
+    background-repeat: no-repeat;
+    border-radius: 10px ;
+    background-size: 1500px ;
+    
+  
+    
+}
+.main5 h1{
+    font-size: 45px;
+    color: rgb(85, 58, 58);
+    font-family: 'Georgia', sans-serif;
+    font-style: oblique;
+}
+.main5 h6{
+    font-size: 25px;
+    font-family: 'Tahoma', serif;
+    color: solid rgba(80, 41, 41, 0.452);
+}
+.contenedor-inputs{     
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    
+    
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 15px;
+    background: whitesmoke;
+   
+}
+.input-48{
+    width: 50px;
+    height: 78px;
+    background-color: white;
+}
+.input-100{
+    width: 100%;
+}
+.btn-enviar{
+    background: rgb(75, 39, 46);
+    color: whitesmoke;
+    margin: auto;
+}

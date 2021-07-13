@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu1.css">
+</head>
+<body onload="colorPrecios()">
+    <h1>Pasteles Social Vivis</h1>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <th><h2>Nombre</h2></th>
+                <th><h2>Precio</h2></th>
+                <th><h2>Moneda</h2></th>
+                <th><h2>Producto</h2></th>
+            </tr>
+            <tr>
+            <td>Pastel de chocolate</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/chocolate.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Pastel de vainilla</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/vainilla.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Pastel de oreo</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/oreo2.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Postre de tres leches</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/leches.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Postre de Maracuya</td>
+            <td>1.20</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/maracuya.jpg" alt=""></td>
+        </tr>
+        </table>
+    </div>
+    <a href="index.html"><input type="submit" value="Regresar" width="60px" class="btn-regresar"></a>
+    <script type="text/javascript">
+        function colorPrecios(){
+            var precioProducto = document.getElementsByTagName("TD");
+            for(var i=1;i<20;i=i+4){
+                if(precioProducto[i].innerHTML>1000){
+                    precioProducto[i].style.color="brown";
+                }
+            }
+        }
+    </script>
+   
+</body>
+</html>

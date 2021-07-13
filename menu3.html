@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu1.css">
+</head>
+<body onload="colorPrecios()">
+    <h1>Sandwich Social Vivis</h1>
+    <br>
+    <div>
+        <table>
+            <tr>
+                <th><h2>Nombre</h2></th>
+                <th><h2>Precio</h2></th>
+                <th><h2>Moneda</h2></th>
+                <th><h2>Producto</h2></th>
+            </tr>
+            <tr>
+            <td>Sandwich de pollo</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/pollo.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Sandwich de cerdo</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/cerdo.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Sandwich de pernil</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/pernil.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Sandwich Vegetariano</td>
+            <td>1.00</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/vegetariano.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td>Sandwich de jamon y queso</td>
+            <td>1.20</td>
+            <td>Dolares</td>
+            <td><img src="imagenes/jamon.jpg" alt=""></td>
+        </tr>
+        </table>
+    </div>
+    <a href="index.html"><input type="submit" value="Regresar" width="60px" class="btn-regresar"></a>
+    <script type="text/javascript">
+        function colorPrecios(){
+            var precioProducto = document.getElementsByTagName("TD");
+            for(var i=1;i<20;i=i+4){
+                if(precioProducto[i].innerHTML>1000){
+                    precioProducto[i].style.color="brown";
+                }
+            }
+        }
+    </script>
+   
+</body>
+</html>

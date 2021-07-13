@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="css/efectos.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/reservas.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+
+    
+    <section class="main">
+        <section class="acerca-de">
+            <div class="foto">
+
+                <img class="sombra_radial" src="imagenes/1.jpg" width="115" height="115" alt="Viviana Zambrano">
+            </div>
+        </section>
+    </section>
+
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href="index.html" id="btn-inicio"> Inicio </a>
+                <a href="nosotros.html" id="btn-nosotros"> Nosotros </a>
+                <a href="carta.html" id="btn-carta"> La Carta </a>
+                <a href="galeria.html" id="btn-galeria"> Galeria </a>
+                <a href="reservas.html" id="btn-reservas"> Reservas </a>
+                <a href="contactos.html" id="btn-contactos"> Contactos </a>
+            </nav>
+        </div>
+    </header>
+   
+    <section class="main5">
+        <h1>Reservas</h1>
+        <form action="">
+            <div class="contenedor-inputs">
+                <h6>Nombre:</h6>
+                <input type="text" size="15" maxlength="30" name="nombre" class="input-48" required>
+                <h6>Email:</h6>
+                <input type="email" name="correo" class="input-48" required>
+                <h6>Telefono:</h6>
+                <input type="tel" name="telefono" placeholder="9999999999" class="input-48" required>
+                <h6>Cantidad de personas:</h6>
+                <input type="number" name="cantidad" class="input-48" required>
+                <h6>Fecha:</h6>
+                <input type="date" name="fecha" class="input-48" required>
+                <h6>Hora:</h6>
+                <input type="time" name="hora" class="input-48" required>
+                <h6>Mensaje:</h6>
+                <input type="text" name="mensaje" class="input-100" required>
+                <input type="submit" value="Enviar" class="btn-enviar">
+            </div>
+        </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/min.js"></script>
+
+</body>
+
+</html>

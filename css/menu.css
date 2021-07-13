@@ -1,0 +1,57 @@
+.main1 .menu1{
+    padding-top: 870px;
+    margin-bottom: 50px;
+
+   
+}
+.main1 .menu1 .titulo{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+ 
+}
+.main1 .menu1.contenedor-menu{
+    border: 1px solid ;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
+.main1 .menu1 .article{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.main1 .menu1 .contenedor .categoria{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.main1 .menu1 article .platillo{
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted ;
+}
+.main1 .menu1 article .nombre{
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+.main1 .menu1 article .precio{
+    float: right;
+    margin-bottom: 25px;
+    margin-bottom: 15px;
+}
+.main1 .menu1 article .descripcion{
+    font-size: 16px;
+    color: bisque;
+    clear: both;
+}
+.main1 .menu1 .contenedor-menu2{
+    border: 1px solid ;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+}
